@@ -1,18 +1,11 @@
-// import React, {Component} from 'react'
-// import {connect} from 'react-redux';
 
 const initialState = {
   cheeses: [
     { BathBlue: 'index 1' },
     { BarkhamBlue: 'index 2' },
-    { BuxtonBlue: 'index 3' }
+    { BuxtonBlue: 'index 3' },
+    {NachoCheese:'index 4'}
   ]
-
-  //  [
-  //   'Bath Blue':'index 1',
-  //   'Barkham Blue':,
-  //   'Buxton Blue'
-  // ]
 };
 
 const cheeseReducer = (state = initialState, action) => {
